@@ -1,0 +1,161 @@
+body {
+    background-image: url(https://free-3dtextureshd.com/wp-content/webpc-passthru.php?src=https://free-3dtextureshd.com/wp-content/uploads/2023/11/Wood-planks-texture-raw-free-download-background-wallpaper-high-resolution-8-preview.jpg&nocache=1);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: fantasy;
+
+}
+
+.c-characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.c-characters__item {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    height: 300px;
+    max-width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+}
+
+button {
+    margin: 20px auto;
+    width: 250px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    font-family: fantasy;
+    color: #b4a482;
+    font-size: 18px;
+    font-weight: 400;
+    text-shadow: 0 1px 3px #000;
+    text-align: center;
+    padding: 10px 0;
+    background: radial-gradient(circle, #543d11, #8b5c00);
+    border-top: 4px ridge #b4a482;
+    border-left: 4px groove #b4a482;
+    border-right: 4px ridge #b4a482;
+    border-bottom: 4px groove #b4a482;
+    box-shadow: inset 0px 0px 5px 3px rgba(1, 1, 1, 0.3);
+}
+
+button:hover {
+    background: radial-gradient(circle, #90671b, #ab7201);
+    box-shadow: 0px 0 5px 5px rgba(255, 255, 255, 0.2)
+}
+
+button:active {
+    background: radial-gradient(circle, #543d11, #8b5c00);
+    box-shadow: 0px 0 5px 5px rgba(255, 255, 255, 0.2)
+}
+
+h2.title {
+    color: burlywood;
+    text-shadow: 0 0 15px BLACK, 0 0 5px BLACK, 0 0 5px BLACK;
+    font-size: 28px;
+    line-height: 1;
+}
+
+.characterDiv {
+    padding: 2px 26px;
+    width: 230px;
+    text-align: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/012/981/795/original/old-parchment-paper-sheet-vintage-aged-or-texture-background-png.png);
+    background-size: 280px 530px;
+    background-repeat: no-repeat;
+}
+
+.CharacterData {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.CharacterData h5,
+.CharacterData ul {
+    margin: 7px 0px;
+}
+
+.remainingLife {
+    color: burlywood;
+    text-shadow: 0 0 15px #000, 0 0 5px #000, 0 0 5px #000;
+    font-size: 28px;
+
+}
+
+.arena {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.playersBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.gameInfo {
+    width: 50%;
+    color: burlywood;
+    text-shadow: 0 0 15px #000, 0 0 5px #000, 0 0 5px #000;
+}
+
+button.battleButton {
+    margin: 0 auto;
+}
+
+.gameLogList {
+    font-size: 18px;
+    line-height: 1;
+    margin: 20px 0;
+}
+
+.gameResult {
+    position: absolute;
+    top: 200px;
+    background: burlywood;
+    padding: 20px 52px 5px;
+    font-size: 50px;
+    box-shadow: 0 0 15px #000, 0 0 5px #000, 0 0 5px #000;
+
+}
+
+.battleRslt {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Lanzamiento de dados */
+
+.loaderContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000000ad;
+    color: blanchedalmond;
+    font-size: 30px;
+    text-align: center;
+}
+
+.loaderTitle {
+    margin: 150px 0 -50px;
+}
+
+.loaderContainer img {
+    width: 300px;
+}

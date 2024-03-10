@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+p,
+input[type=text] {
+    margin: 0px;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #505166;
+    font-family: 'Alata', sans-serif;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: #39B54A;
+    font-size: 45px;
+    font-family: Alata;
+    margin-left: 20px;
+}
+
+img#logo {
+    width: 50px;
+    height: 50px;
+}
+
+form {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.input-container {
+    display: flex;
+    background-color: #FFF;
+}
+
+input[type=text],
+.button {
+    padding: 1.5rem 2rem;
+}
+
+input[type=text] {
+    flex-grow: 2;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.button {
+    background-color: #37b44c;
+    cursor: pointer;
+    -webkit-transition: background-color .25s ease-in-out;
+    -moz-transition: background-color .25s ease-in-out;
+    -o-transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+}
+
+.button:hover {
+    background: #75e988;
+}
+
+.button:click {
+    background: #195f25;
+}
+
+.button p {
+    color: #FFF;
+}
+
+input[type=text]::placeholder {
+    font-size: 1rem;
+}
+
+.taskList {
+    margin: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+p.newTask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.buttonToCompleteTask {
+    height: 30px;
+    width: 30px;
+    border: 0;
+    margin: 10px 0px 0px 10px;
+    background-color: rgb(14, 142, 0);
+    color: #fff;
+}
+
+.completedBlock {
+    background-color: green;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.completedBlock .newTask {
+    font-size: 25px;
+    color: #fff;
+}
+
+.completedTasks {
+    margin: 20px;
+}

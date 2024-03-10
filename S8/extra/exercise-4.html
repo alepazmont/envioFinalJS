@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Ball Planets</title>
+    <script src="exercise-4.js" defer></script>
+    <link rel="shortcut icon" href="https://seeklogo.com/images/D/dragon-ball-with-4-stars-logo-F11C43957B-seeklogo.com.png" type="image/x-icon">
+    <style>
+        body {
+            background-image: url(nightsky.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: monospace;
+        }
+        h3 {
+            text-align: center;
+            color: #fff;
+        }
+
+        div.planets {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .planetDiv {
+            height: 465px;
+            display: flex;
+            width: 28%;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 25px;
+            color: #fff;
+            text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 15px black;
+        }
+
+        .planetDiv img {
+            width: 400px;
+            border-radius: 100%;
+
+        }
+
+        input {
+            margin: 0 auto;
+            display: block;
+            padding: 9px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .characterDiv {
+            width: 231px;
+            margin: 10px 15px;
+            background-color: orange;
+            padding: 15px;
+            border-radius: 20px;
+            box-shadow: inset 0 0 54px black;
+        }
+
+        .characters {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .characterDiv img {
+            height: 300px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .characterDiv p {
+            text-align: justify;
+            font-size: 15px;
+            background: #fff;
+            width: 220px;
+            padding: 10px;
+            border-radius: 15px;
+            margin: -375px -5px;
+            line-height: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Haz click en un planeta para ver sus personajes nativos</h3>
+    <div data-function="planets" class="planets"></div>
+    <div data-function="search"></div>
+    <div data-function="characters" class="characters"></div>
+
+</body>
+
+</html>
