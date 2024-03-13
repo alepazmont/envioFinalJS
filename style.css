@@ -1,0 +1,28 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:visited {
+    color: cornflowerblue;
+}
+
+a:hover, a:visited:hover {
+    color: purple;
+}
+
+iframe {
+    background: #fff;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: none;
+    border-top: 2px solid white;
+}
